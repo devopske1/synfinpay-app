@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dash_board_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.synfinpay.views.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.example.synfinpay.views.TransactionsFragment"
+        android:label="TransactionsFragment" />
+    <fragment
+        android:id="@+id/addNewExpenseFragment2"
+        android:name="com.example.synfinpay.views.AddNewExpenseFragment"
+        android:label="AddNewExpenseFragment" />
+    <fragment
+        android:id="@+id/createOrderFragment2"
+        android:name="com.example.synfinpay.views.CreateOrderFragment"
+        android:label="CreateOrderFragment" />
+    <fragment
+        android:id="@+id/addStockFragment2"
+        android:name="com.example.synfinpay.views.AddStockFragment"
+        android:label="AddStockFragment" />
+    <fragment
+        android:id="@+id/expenseRecordFragment2"
+        android:name="com.example.synfinpay.views.ExpenseRecordFragment"
+        android:label="fragment_expense_record"
+        tools:layout="@layout/fragment_expense_record" />
+    <fragment
+        android:id="@+id/selectOrderFragment2"
+        android:name="com.example.synfinpay.views.SelectOrderFragment"
+        android:label="SelectOrderFragment" />
+    <fragment
+        android:id="@+id/mobileMoneyFragment2"
+        android:name="com.example.synfinpay.views.MobileMoneyFragment"
+        android:label="MobileMoneyFragment" />
+    <fragment
+        android:id="@+id/selectModeOfPaymentFragment2"
+        android:name="com.example.synfinpay.views.SelectModeOfPaymentFragment"
+        android:label="SelectModeOfPaymentFragment" />
+    <fragment
+        android:id="@+id/orderFragment2"
+        android:name="com.example.synfinpay.views.OrderFragment"
+        android:label="OrderFragment" />
+    <fragment
+        android:id="@+id/checkOutOrderFragment2"
+        android:name="com.example.synfinpay.views.CheckOutOrderFragment"
+        android:label="CheckOutOrderFragment" />
+    <fragment
+        android:id="@+id/softDrinksFragment2"
+        android:name="com.example.synfinpay.views.SoftDrinksFragment"
+        android:label="SoftDrinksFragment" />
+    <fragment
+        android:id="@+id/mycCartFragment2"
+        android:name="com.example.synfinpay.views.MycCartFragment"
+        android:label="MycCartFragment" />
+
+
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.synfinpay.views.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/stockFragment"
+        android:name="com.example.synfinpay.views.StockFragment"
+        android:label="StockFragment" />
+    <fragment
+        android:id="@+id/closedOrderFragment"
+        android:name="com.example.synfinpay.views.ClosedOrderFragment"
+        android:label="ClosedOrderFragment" />
+    <fragment
+        android:id="@+id/runningOrderFragment"
+        android:name="com.example.synfinpay.views.RunningOrderFragment"
+        android:label="RunningOrderFragment" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.synfinpay.views.SignInFragment"
+        android:label="fragment_add_new_expense"
+        tools:layout="@layout/fragment_add_new_expense" />
+    <fragment
+        android:id="@+id/searchCustomersFragment"
+        android:name="com.example.synfinpay.views.SearchCustomersFragment"
+        android:label="SearchCustomersFragment" />
+    <fragment
+        android:id="@+id/charlesMwambireFragment"
+        android:name="com.example.synfinpay.views.CharlesMwambireFragment"
+        android:label="CharlesMwambireFragment" />
+    <fragment
+        android:id="@+id/mobileMoneyFragment22"
+        android:name="com.example.synfinpay.views.MobileMoneyFragment2"
+        android:label="MobileMoneyFragment2" />
+    <fragment
+        android:id="@+id/verifyTransactionFragment"
+        android:name="com.example.synfinpay.views.VerifyTransactionFragment"
+        android:label="VerifyTransactionFragment" />
+    <fragment
+        android:id="@+id/changePasswordFragment2"
+        android:name="com.example.synfinpay.views.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.example.synfinpay.views.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+</navigation>

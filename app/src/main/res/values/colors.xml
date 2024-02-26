@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondary">#01C9FD</color>
+    <color name="primary">#172AB4</color>
+    <color name="blue">#32429B</color>
+    <color name="grayborder">#091B3D</color>
+
+
+    //synfinpay colors
+    <color name="sfp_background">#01C9FD</color>
+    <color name="sfb_blue">#172AB4</color>
+    <color name ="sfb_blue_primary">#3629B7</color>
+    <color name = "sfp_black">#091B3D</color>
+    <color name="tabGray">#ECEDEF</color>
+
+    <color name="selectedItemColor">#0000FF</color>
+    <color name="unselectedItemColor">#000000</color>
+    <color name="syn_gray">#707070</color>
+</resources>
+

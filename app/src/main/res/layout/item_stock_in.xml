@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvPaynemt"
+    android:layout_marginBottom="2dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <TableLayout
+            android:id="@+id/table_heading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvInventory"
+                    style="@style/table_row_item"
+                    android:layout_width="0dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:background="@color/white"
+                    android:text="INVENTORY"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/tvQuantity"
+                    style="@style/table_row_item"
+                    android:layout_width="0dp"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:background="@color/white"
+                    android:text="QUANTITY"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/tvTotalValue"
+                    style="@style/table_row_item"
+                    android:layout_width="0dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:background="@color/white"
+                    android:baselineAligned="false"
+                    android:text="TOTAL VALUE"
+                    android:textAlignment="textStart" />
+
+
+            </TableRow>
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

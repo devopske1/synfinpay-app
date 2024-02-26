@@ -1,0 +1,119 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.0.1' apply false
+    id 'com.android.library' version '8.0.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.20' apply false
+}
+
+ext{
+    roomRuntimeVersion = "2.4.3"
+    roomCompilerVersion = "2.4.3"
+    roomKotlinVersion = "2.4.3"
+
+    archRoomVersion = "2.3.0"
+    roomDbVersion = "2.4.0-rc01"
+
+
+    //
+    archLifecycleExtVersion = "2.2.0"
+    archLifecycleRuntimeVersion = ""
+    archRoomVersion = "2.0.0-rc01"
+    //
+    lifecyleExtensionsVersion = "2.2.0"
+    //
+    kotlinCoreVersion = "1.7.0"
+    kotlinLifecycleExtVersion = "2.4.0"
+    kotlinxCoroutinesCoreVersion = "1.6.4"
+    kotlinxCoroutinesPlayServicesVersion = "1.6.0"
+    kotlinLifecycleRuntimeVersion = "2.4.1"
+    kotlinxCoroutinesAndroidVersion = "1.6.0"
+    kotlinxCoroutinesJdk8Version = "1.6.0"
+    //
+    archLifecycleVersion = "2.4.1"
+    archLifecycleServiceVersion = "2.4.1"
+    archLifecycleReactiveStreamsVersion = "2.4.1"
+    archLifecycleReactiveStreamsVersion = "2.4.1"
+    archLifecycleReactiveStreamsKotlinVersion = "2.4.1"
+
+    //
+    supportLibVersion = "1.5.1"
+    navigationUIVersion = "2.3.2"
+    constraintLayoutVersion = "2.0.4"
+    materialVersion="1.6.1"
+    recyclerViewVersion = "1.1.0"
+    //
+    testJunitVersion = "4.13.2"
+    textExtJunitVersion = "1.1.5"
+    textEspressoVersion = "3.5.1"
+    //
+    archRxJava2Version = "2.2.4"
+    archAndroidRxJava2Version = "2.1.0"
+    //
+    archLifecycleExtVersion = "2.2.0"
+    archLifecycleRuntimeVersion = ""
+    archRoomVersion = "2.0.0-rc01"
+    //
+    lifecyleExtensionsVersion = "2.2.0"
+    //
+    kotlinCoreVersion = "1.7.0"
+    kotlinLifecycleExtVersion = "2.4.0"
+    kotlinxCoroutinesCoreVersion = "1.6.4"
+    kotlinxCoroutinesPlayServicesVersion = "1.6.0"
+    kotlinLifecycleRuntimeVersion = "2.4.1"
+    kotlinxCoroutinesAndroidVersion = "1.6.0"
+    kotlinxCoroutinesJdk8Version = "1.6.0"
+    //
+    archLifecycleVersion = "2.4.1"
+    archLifecycleServiceVersion = "2.4.1"
+    archLifecycleReactiveStreamsVersion = "2.4.1"
+    archLifecycleReactiveStreamsVersion = "2.4.1"
+    archLifecycleReactiveStreamsKotlinVersion = "2.4.1"
+    //
+    archRoomVersion = "2.3.0"
+    roomDbVersion = "2.4.0-rc01"
+    //
+    roomRuntimeVersion = "2.4.3"
+    roomCompilerVersion = "2.4.3"
+    roomKotlinVersion = "2.4.3"
+    //
+    googlePlayCoreVesion = "1.10.3"
+    googleSecLibVersion = "1.1.0-alpha03"
+    //
+    googleDaggerVersion = "2.19"
+    //
+    gsonVersion = "2.8.9"
+    glideVersion = "4.12.0"
+
+    //Jetpack navigation
+    nav_version = "2.3.5"
+
+    //Lottie animation
+    lottieVersion = "3.5.0"
+//ekenya Libs
+    ekenyeEntryptionLibVersion = "1.1" // Data Encryption Library
+    ekenyaValidationsLibVersion = "1.1" //Input Validations Library
+    ekenyaNetworkLibVersion = "1.1" //Network REqs Library
+    ekenyaPersistanceLibVersion = "2.0" // Data Repository
+    ekenyaLoggingLibVersion = "1.1" //Logging Library
+    ekenyaSecurityLibVersion = "1.1" //Security Library
+    ekenyaDataConversionLibVersion = "1.1" //Data Conversions Library
+    ekenyaQSSLibVersion = "1.1" //QSS Library"
+
+    //Timber version
+    timber = "4.7.1"
+
+    //Retrofit
+    retrofit = "2.9.0"
+
+    //Circle Image View Library
+    circleImage = "3.1.0"
+
+    //Data store
+    dataStore = "1.0.0"
+
+    //cameraX dependency
+    camerax_version = "1.0.1"
+
+    //retromock
+    retromock_version = "1.1.1"
+}

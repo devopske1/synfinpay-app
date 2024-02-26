@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SynfinPay" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SynfinPay" parent="Base.Theme.SynfinPay" />
+
+    <style name="BottomNavigationStyle">
+        <item name="android:background">@android:color/white</item>
+
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primary</item>
+        <!-- Add more attributes as needed -->
+    </style>
+
+    <style name="table_row_item" parent="@android:style/TextAppearance.Small">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginEnd">1dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottomsheet_rounded_bg</item>
+    </style>
+
+    <style name="exposedDropdownMenuCustom" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/syn_gray</item>
+        <item name="hintTextColor">@color/syn_gray</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="android:textColorHint">@color/syn_gray</item>
+        <item name="android:textColor">@color/syn_gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/nunitosans_regular</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="endIconTint">@color/syn_gray</item>
+    </style>
+</resources>

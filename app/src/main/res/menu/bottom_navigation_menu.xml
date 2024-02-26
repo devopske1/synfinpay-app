@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home" android:icon="@drawable/ic_home_24" android:id="@+id/homeFragment"/>
+    <item android:title="Transactions" android:icon="@drawable/ic_sync_alt_24" android:id="@+id/transactionsFragment"/>
+    <item android:title="Settings" android:icon="@drawable/ic_settings24" android:id="@+id/settings"/>
+</menu>

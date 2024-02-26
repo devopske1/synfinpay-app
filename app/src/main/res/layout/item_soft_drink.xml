@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:layout_height="wrap_content">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/tabGray"
+        app:cardCornerRadius="24dp"
+        android:elevation="16dp"
+        android:padding="10dp"
+        strokeColor="@color/primary"
+        strokeWidth="5dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgRecycler"
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:src="@drawable/mirinda"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <TextView
+            android:id="@+id/tvOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_shape"
+
+            android:backgroundTint="@color/white"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:text="80% off"
+            android:textColor="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintEnd_toEndOf="@id/imgRecycler"
+            app:layout_constraintStart_toStartOf="@id/imgRecycler"
+            app:layout_constraintTop_toBottomOf="@id/imgRecycler" />
+
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="Pepsi 400ML"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsblack900"
+            app:layout_constraintStart_toEndOf="@id/imgRecycler"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_165_00"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppinsblack900"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="@id/tvOffer"
+            app:layout_constraintBottom_toBottomOf="@id/tvOffer"
+            app:layout_constraintStart_toEndOf="@id/imgRecycler"
+            android:layout_marginStart="50dp"
+            />
+
+        <TextView
+            android:id="@+id/tvOriginalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/_187_00"
+            android:textSize="12sp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toStartOf="@id/tvSubtract"
+            app:layout_constraintBottom_toBottomOf="@id/tvOffer"
+            app:layout_constraintStart_toEndOf="@id/tvProductName"
+            app:layout_constraintTop_toTopOf="@id/tvOffer" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tvAdd"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="19dp"
+            android:gravity="center"
+            app:cardBackgroundColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvItemCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="25dp"
+            android:text="1"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAdd" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tvSubtract"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginEnd="19dp"
+            android:gravity="center"
+            app:cardBackgroundColor="#E4E4E4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvOffer"
+            app:layout_constraintBottom_toBottomOf="@id/tvOffer">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="-"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

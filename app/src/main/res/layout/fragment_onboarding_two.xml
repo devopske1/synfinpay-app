@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/secondary"
+    tools:context=".views.OnBoardingTwoFragment">
+
+
+    <ImageView
+        android:id="@+id/onboardingImg"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/onb2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOnboadindTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onb2Title"
+        android:fontFamily="@font/galano_classinc_bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/sfp_black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/onboardingImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tvonboarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onb2Body"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/sfp_black"
+        android:fontFamily="@font/galano_classic"
+        app:layout_constraintTop_toBottomOf="@id/tvOnboadindTitle"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        />
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        >
+
+        <TextView
+            android:id="@+id/cardviewBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Skip"
+            android:fontFamily="@font/galano_classic"
+            android:textSize="18sp"
+            android:gravity="center"
+            app:cardCornerRadius="18dp"
+            android:backgroundTint="@color/blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+
+
+        </TextView>
+
+
+
+        <me.relex.circleindicator.CircleIndicator3
+            android:layout_width="50dp"
+            android:layout_height="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cardviewBack"
+            app:layout_constraintEnd_toStartOf="@id/cardViewNext"
+
+            />
+
+
+        <TextView
+            android:id="@+id/cardViewNext"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:text="Next"
+            android:gravity="center"
+            android:fontFamily="@font/galano_classic"
+            android:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+
+
+
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

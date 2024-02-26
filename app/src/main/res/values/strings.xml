@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">synfinPay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onb2Title">Design Templates are Simple and Easy</string>
+    <string name="text_verify">We texted you a code to verify your phone number</string>
+    <string name="text_verify2">We texted you a code to verify your phone number (+254) 0398829xxx</string>
+    <string name="text_verify3">This code was received via Mobile Money Payment. Kindly ask the customer to show you the transaction code.</string>
+
+
+    <string name="text_expiry">This code will expired 10 minutes after this message. If you don\'t get a message.</string>
+
+
+    <string name="onb_one">Our community of creatives is ready for your next big thing. Let’s go creatively wild!</string>
+    <string name="terms">By creating an account your aggree
+to our  Term and Condtions</string>
+
+
+    <string name="onb2Body">Create a unique emotional story that describes better than words
+    </string>
+    <string name="submit">Submit</string>
+    <string name="date">Date</string>
+    <string name="amount">amount</string>
+    <string name="expense">expense</string>
+    <string name="record_new_expense">Record new expense.</string>
+    <string name="add_new_expense">Add new expense</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hello_there">Hello there,</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="forgot_your_password">forgot your Password?</string>
+    <string name="change_password">Change password</string>
+    <string name="type_your_new_password">Type your new password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="changed_password_successfully">Changed password successfully!</string>
+    <string name="you_have_successfully_changed_your_password_please_use_the_new_password_when_signing_in">you have successfully changed your password. Please use the new password when signing in</string>
+    <string name="ok">ok</string>
+    <string name="type_your_phone_number">Type your phone number</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="_254">(+254)</string>
+    <string name="send">Send</string>
+    <string name="forgot_password_code">Forgot Password Code</string>
+    <string name="type_code">Type code</string>
+    <string name="code">code</string>
+    <string name="change_your_phone_number">Change your phone number</string>
+    <string name="synfinpay">SynfinPay</string>
+    <string name="last_login_12_33_09">Last login: 12:33:09</string>
+    <string name="welcome_back_mark">Welcome back,Mark</string>
+    <string name="charles_mwambire">Charles Mwambire</string>
+    <string name="search_customer">Search Customer</string>
+    <string name="here_are_some_of_your_customer_recent_orders">Here are some of your customer recent orders</string>
+    <string name="mokaya_david">Mokaya David</string>
+    <string name="total_kes_980_00">Total: KES 980.00</string>
+    <string name="_28_01_2023_12_35pm">28/01/2023 12:35pm</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="ksh_520_00">Ksh 520.00</string>
+    <string name="vat_inclusive">VAT inclusive</string>
+    <string name="check_out">Check Out</string>
+    <string name="_165_00">$ 165.00</string>
+    <string name="_187_00">$ 187.00</string>
+    <string name="search">search</string>
+    <string name="reo1ae8t5p">REO1AE8T5P</string>
+    <string name="claim">Claim</string>
+    <string name="running_order">Running order</string>
+    <string name="closed_order">Closed order</string>
+    <string name="here_are_some_of_your_closed_orders">Here are some of your closed orders</string>
+    <string name="order_no_002m">Order No: 002M</string>
+</resources>

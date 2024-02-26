@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_nav"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.synfinpay.views.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/onBoardingOneFragment"
+        android:name="com.example.synfinpay.views.OnBoardingOneFragment"
+        android:label="fragment_onboarding_one"
+        tools:layout="@layout/fragment_onboarding_one" >
+        <action
+            android:id="@+id/action_onboardingOneFragment_self"
+            app:destination="@id/onBoardingOneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingTwoFragment"
+        android:name="com.example.synfinpay.views.OnBoardingTwoFragment"
+        android:label="fragment_onboarding_two"
+        tools:layout="@layout/fragment_onboarding_two" />
+    <fragment
+        android:id="@+id/onboardingThreeFragment"
+        android:name="com.example.synfinpay.views.OnBoardingThreeFragment"
+        android:label="fragment_onboarding_three"
+        tools:layout="@layout/fragment_onboarding_three" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.synfinpay.views.SignupFragment"
+        android:label="SignupFragment" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.synfinpay.views.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.synfinpay.views.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/changePasswordSuccessFragment"
+        android:name="com.example.synfinpay.views.ChangePasswordSuccessFragment"
+        android:label="fragment_change_password_success"
+        tools:layout="@layout/fragment_change_password_success" />
+    <fragment
+        android:id="@+id/forgotPasswordCodeFragment"
+        android:name="com.example.synfinpay.views.ForgotPasswordCodeFragment"
+        android:label="fragment_forgot_password_code"
+        tools:layout="@layout/fragment_forgot_password_code" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.synfinpay.views.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.synfinpay.views.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.synfinpay.views.OnBoardingFragment"
+        android:label="OnBoardingFragment" />
+    <fragment
+        android:id="@+id/checkOutOrderFragment"
+        android:name="com.example.synfinpay.views.CheckOutOrderFragment"
+        android:label="CheckOutOrderFragment" />
+    <fragment
+        android:id="@+id/softDrinksFragment"
+        android:name="com.example.synfinpay.views.SoftDrinksFragment"
+        android:label="SoftDrinksFragment" />
+    <fragment
+        android:id="@+id/createOrderFragment"
+        android:name="com.example.synfinpay.views.CreateOrderFragment"
+        android:label="CreateOrderFragment" />
+    <fragment
+        android:id="@+id/addNewExpenseFragment"
+        android:name="com.example.synfinpay.views.AddNewExpenseFragment"
+        android:label="AddNewExpenseFragment" />
+    <fragment
+        android:id="@+id/expenseRecordFragment"
+        android:name="com.example.synfinpay.views.ExpenseRecordFragment"
+        android:label="fragment_expense_record"
+        tools:layout="@layout/fragment_expense_record" />
+    <fragment
+        android:id="@+id/addStockFragment"
+        android:name="com.example.synfinpay.views.AddStockFragment"
+        android:label="AddStockFragment" />
+    <fragment
+        android:id="@+id/selectModeOfPaymentFragment"
+        android:name="com.example.synfinpay.views.SelectModeOfPaymentFragment"
+        android:label="SelectModeOfPaymentFragment" />
+    <fragment
+        android:id="@+id/selectOrderFragment"
+        android:name="com.example.synfinpay.views.SelectOrderFragment"
+        android:label="SelectOrderFragment" />
+    <fragment
+        android:id="@+id/mobileMoneyFragment"
+        android:name="com.example.synfinpay.views.MobileMoneyFragment"
+        android:label="MobileMoneyFragment" />
+    <fragment
+        android:id="@+id/mycCartFragment"
+        android:name="com.example.synfinpay.views.MycCartFragment"
+        android:label="MycCartFragment" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.synfinpay.views.SignUpFragment"
+        android:label="SignUpFragment" />
+
+    <fragment
+        android:id="@+id/transactionsFragment2"
+        android:name="com.example.synfinpay.views.TransactionsFragment"
+        android:label="fragment_verify_transaction"
+        tools:layout="@layout/fragment_verify_transaction" />
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.synfinpay.views.HomeFragment"
+        android:label="old_home_fagment"
+        tools:layout="@layout/old_home_fagment" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.synfinpay.views.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+    <fragment
+        android:id="@+id/verifyTransactionFragment2"
+        android:name="com.example.synfinpay.views.VerifyTransactionFragment"
+        android:label="VerifyTransactionFragment" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.example.synfinpay.views.OrderFragment"
+        android:label="OrderFragment" />
+
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.synfinpay.views.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/stockInFragment2"
+        android:name="com.example.synfinpay.views.StockInFragment"
+        android:label="StockInFragment" />
+
+</navigation>

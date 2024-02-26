@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/tvCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/order_no_002m"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:text="@string/_28_01_2023_12_35pm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="@id/tvCategoryName"
+        app:layout_constraintTop_toBottomOf="@id/tvCategoryName"/>
+
+
+    <TextView
+        android:id="@+id/btn_setLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/total_kes_980_00"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+       app:layout_constraintEnd_toStartOf="@id/imgForward"
+        app:layout_constraintTop_toTopOf="@id/tvCategoryName" />
+
+    <TextView
+        android:id="@+id/tvClaim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 Items"
+        android:textSize="12sp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textColor="#707070"
+        app:layout_constraintEnd_toStartOf="@id/imgForward"
+        app:layout_constraintTop_toBottomOf="@id/btn_setLimit"
+        app:layout_constraintBottom_toBottomOf="@id/tvDate"/>
+
+
+    <ImageView
+        android:id="@+id/imgForward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_keyboard_arrow_right_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="@id/btn_setLimit"
+        app:layout_constraintBottom_toBottomOf="@id/tvClaim"
+         />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
