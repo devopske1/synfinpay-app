@@ -21,7 +21,7 @@ import java.util.Calendar
 import java.util.Locale
 
 
-class AddNewExpenseFragment : Fragment() {
+class giAddNewExpenseFragment : Fragment() {
     private lateinit var binding: FragmentAddNewExpenseBinding
     private val userRepository: UserRepositoryImpl by lazy {
         UserRepositoryImpl(UserDatabase.invoke(requireContext()))
