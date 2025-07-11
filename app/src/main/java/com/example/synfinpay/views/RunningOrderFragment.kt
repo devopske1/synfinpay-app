@@ -1,5 +1,6 @@
 package com.example.synfinpay.views
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -25,6 +26,7 @@ private lateinit var binding: FragmentRunningOrderBinding
         binding  = FragmentRunningOrderBinding.inflate(layoutInflater)
         return binding.root
     }
+    @SuppressLint("SuspiciousIndentation")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.back.setOnClickListener {
