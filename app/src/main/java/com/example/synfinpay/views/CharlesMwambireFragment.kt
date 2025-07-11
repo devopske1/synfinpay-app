@@ -48,27 +48,13 @@ class CharlesMwambireFragment : Fragment() {
             findNavController().navigateUp()
         }
 
-//        binding.tvRemoveItems.setOnClickListener {
-//            selectedItem?.let {
-//                softDrinkList.remove(it)
-//                softDrinkAdapter.notifyDataSetChanged()
-//                it.binding.cardView.setBackgroundColor(Color.TRANSPARENT)
-//                binding.tvRemoveItems.isEnabled = false
-//                selectedItem = null
-//            }
-//        }
+
     }
 
 
 
 
-//    @SuppressLint("ResourceAsColor")
-//    override fun onItemLongClicked(view: View, softDrink: SoftDrinkItems) {
-//        val cardView = view.findViewById<CardView>(R.id.cardView)
-//        cardView.setBackgroundColor(com.example.synfinpay.R.color.sfb_blue_primary)
-//        binding.tvRemoveItems.isEnabled = true
-//        selectedItem = softDrink
-//    }
+
 
     private fun initRecyclerView() {
         softDrinkAdapter = SoftDrinkAdapter(
