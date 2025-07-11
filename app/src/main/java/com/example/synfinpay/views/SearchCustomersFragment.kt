@@ -36,8 +36,25 @@ private lateinit var customerOrderAdapter: CustomerOrderAdapter
       customerOrderAdapter.submitList(dummyCustomer())
     }
 
+
     private fun initRecyclerView(){
       customerOrderAdapter = CustomerOrderAdapter(object: OnCustomerAdapterItemClickedListener {
+            override fun onItemClicked(view: View, select: CustomerOrder) {
+                findNavController().navigate(R.id.charlesMwambireFragment)
+            }
+        }
+        )
+
+        binding.rvCustomers.apply{
+            adapter = customerOrderAdapter
+            layoutManager = LinearLayoutManager(requireContext())
+        }
+
+
+
+    }
+    private fun initRecyclerView2(){
+        customerOrderAdapter = CustomerOrderAdapter(object: OnCustomerAdapterItemClickedListener {
             override fun onItemClicked(view: View, select: CustomerOrder) {
                 findNavController().navigate(R.id.charlesMwambireFragment)
             }
