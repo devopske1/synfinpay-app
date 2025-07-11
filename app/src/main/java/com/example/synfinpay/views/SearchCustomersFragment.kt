@@ -1,5 +1,6 @@
 package com.example.synfinpay.views
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -37,6 +38,7 @@ private lateinit var customerOrderAdapter: CustomerOrderAdapter
     }
 
 
+    @SuppressLint("SuspiciousIndentation")
     private fun initRecyclerView(){
       customerOrderAdapter = CustomerOrderAdapter(object: OnCustomerAdapterItemClickedListener {
             override fun onItemClicked(view: View, select: CustomerOrder) {
